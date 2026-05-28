@@ -9,8 +9,8 @@
 Adafruit_PN532 nfc(-1, -1);
 
 // WiFi
-const char* ssid = "Airbox-0118";
-const char* password = "6SL5FsAtWAjh";
+const char* ssid = "Coffee Resto Lloyds 4G";
+const char* password = "lloyds2022";
 
 
 // Firebase
@@ -22,7 +22,7 @@ unsigned long lastTime = 0;
 void setup() {
   Serial.begin(115200);
 
-  delay(1000); // ⭐ IMPORTANT STABILITY FIX
+  delay(1000); 
 
   // I2C FIRST
   Wire.begin(SDA_PIN, SCL_PIN);

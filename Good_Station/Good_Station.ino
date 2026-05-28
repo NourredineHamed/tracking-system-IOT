@@ -9,8 +9,8 @@
 Adafruit_PN532 nfc(-1, -1);
 
 // WiFi
-const char* ssid = "Airbox-0118";
-const char* password = "6SL5FsAtWAjh";
+const char* ssid = "Coffee Resto Lloyds 4G";
+const char* password = "lloyds2022";
 
 // Firebase base URL
 String baseURL = "https://mini-projet-embarque-default-rtdb.firebaseio.com/products/";
